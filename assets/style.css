@@ -74,6 +74,7 @@ body {
 /*styling for the paragraph in the about me section*/
 .About p{
     text-align: center;
+    margin: 20px 0;
 }
 
 /*Tiles cards*/
@@ -139,7 +140,7 @@ body {
 
 .Contacts nav ul li {
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 35px;
     margin-bottom: 40px;
     padding-bottom:40px;
 }
