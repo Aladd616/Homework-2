@@ -4,9 +4,13 @@
 --title: #33393f;
 --header:#00BFFF;
 }
+
+/*general background color for the whole page*/
 body {
     background-color: #F8F8FF;
 }
+
+/*styling for the title in the header*/
 .header{
     padding: 15px;
     background-color:var(--background);
@@ -20,7 +24,7 @@ body {
     font-size: 52px;
 }
 
-
+/*Header Nav bar styling and spacing*/
 .header nav {
     margin-top: 40px;
     font-size: 15px;
@@ -50,9 +54,7 @@ body {
     text-decoration: none;
 }
 
-.About p{
-    text-align: center;
-}
+/*code picture under the header styling and spacing*/
 .subheader{
     background-image:url("./gettyimages-122204403-2048x2048.jpg");
     height: 150px;
@@ -69,12 +71,12 @@ body {
     font-size: 38px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+/*styling for the paragraph in the about me section*/
+.About p{
+    text-align: center;
 }
 
+/*Tiles cards*/
 .Titles{
     flex: 1 0 25%;
     margin-left: 40px; 
@@ -88,6 +90,17 @@ body {
 }
 
 
+
+/*flexbox for work nav*/
+.Work{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    margin:60px;
+}
+
+/*options for image and titles within 'Work" nav*/
 .image{
     max-width:40vw;
     max-height:300px;
@@ -104,20 +117,11 @@ body {
     text-decoration: none;
 }
 
-
-.Work{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction:row;
-    justify-content: space-around;
-    margin:20px;
-}
-
 .image h3{
     text-align:center;
 }
 
-
+/*Contacts Nav bar styling and spacing*/
 .Contacts{
     background-color: var(--background);
 }
@@ -135,8 +139,6 @@ body {
 
 .Contacts nav ul li {
     display: inline-block;
-    margin-left: 25px;
-    padding-left: 25px;
     margin-right: 25px;
     margin-bottom: 40px;
     padding-bottom:40px;
@@ -153,6 +155,7 @@ body {
     text-decoration: none;
 }
 
+/*responsive options for the website*/
 @media screen and (min-width:768px) {
 
     header{
@@ -169,6 +172,7 @@ body {
         max-width: 100%;
         max-height: 100%;
     }
+
     .image h3{
         text-align:center;
     }
@@ -182,6 +186,7 @@ body {
     .image img{
         max-width: 100%;
         max-height: 100%;
+        margin: 0 35px;
     }
     .image h3{
         text-align:center;
